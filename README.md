@@ -21,7 +21,7 @@ Em um segundo momento, foi escolhido um cluster de interesse para treinar um mod
 
 - Essa segunda etapa utiliza uma heurística para determinar se as páginas precisam de OCR e utilizam tesseract, se necessário.
 
-- A terceira etapa foi a utilização de um modelo de embedding para cálculo dos vetores ().
+- A terceira etapa foi a utilização de um modelo de embedding para cálculo dos vetores (usando modelo all-MiniLM-L6-v2).
 
 - Por conta da quantidade de livros, essas etapas são muito demoradas e, por isso, os passos intermediários são salvos utilizando pickle. Passos intermediários: "extracted_text.pkl" possui o texto extraído de cada livro, "embeddings.pkl" possui todos os vetores, "savedResultHDBSCAN.pkl" contém o resultado do algoritmo HDBSCAN (cluster de cada vetor) e "clustered_embeddings.pkl" possui o resultado em formato apropriado para o treinamento de um modelo.
 
