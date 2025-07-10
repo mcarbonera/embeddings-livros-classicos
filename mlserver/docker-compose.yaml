@@ -1,0 +1,7 @@
+services:
+  mlserver:
+    build:
+      context: .
+      dockerfile: Dockerfile-mlserver
+    ports:
+      - "8080:8080"

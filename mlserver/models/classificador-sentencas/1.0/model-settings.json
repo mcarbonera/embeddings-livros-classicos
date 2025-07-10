@@ -1,0 +1,8 @@
+{
+  "name": "classificador-sentencas",
+  "implementation": "mlserver_sklearn.SKLearnModel",
+  "parameters": {
+    "uri": "./model-1.0.joblib",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,10 @@
+.venv
+livros
+
+extracted_text.pkl
+embeddings.pkl
+savedResultHDBSCAN.pkl
+clustered_embeddings.pkl
+
+clustered_embeddings_slim.pkl
+!mlflow/client/clustered_embeddings_slim.pkl

@@ -1,0 +1,11 @@
+services:
+  mlflow-client:
+    build:
+      context: .
+    environment:
+      - MLFLOW_TRACKING_URI=${MLFLOW_TRACKING_URI}
+
+      - LOSS=${LOSS}
+      - CLASS_WEIGHT=${CLASS_WEIGHT}
+      - MAX_ITER=${MAX_ITER}
+      - TOL=${TOL}
