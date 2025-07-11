@@ -65,9 +65,6 @@ docker compose -f mlserver/docker-compose.yaml up --build
 
 - A seguinte requisição realizou a inferência para as 20 sentenças:
 
-<details>
-<summary>Requisição para inferência</summary>
-
 ```
 POST http://localhost:8080/v2/models/classificador-sentencas/versions/1.0/infer
 
@@ -82,7 +79,6 @@ POST http://localhost:8080/v2/models/classificador-sentencas/versions/1.0/infer
     ]
 }
 ```
-</details>
 
 - A seguinte saída foi obtida:
 
