@@ -1,11 +1,13 @@
 # Instalação do tesseract no ambiente wsl:
 
+```
 sudo apt update
 sudo apt install tesseract-ocr
 sudo apt install tesseract-ocr-por
 
 tesseract --version
 tesseract --list-langs
+```
 
 # Descrição
 
